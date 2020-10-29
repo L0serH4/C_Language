@@ -1,0 +1,3 @@
+"D:\Productivity\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TemperatureChange.dir/objects.a
+D:\Environment\mingw64\bin\ar.exe cr CMakeFiles\TemperatureChange.dir/objects.a @CMakeFiles\TemperatureChange.dir\objects1.rsp
+D:\Environment\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\TemperatureChange.dir/objects.a -Wl,--no-whole-archive  -o TemperatureChange.exe -Wl,--out-implib,libTemperatureChange.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TemperatureChange.dir\linklibs.rsp

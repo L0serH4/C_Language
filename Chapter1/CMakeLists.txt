@@ -1,0 +1,5 @@
+add_subdirectory(BiggestThreeNumber)
+add_subdirectory(Test)
+add_subdirectory(LowerToUpper)
+add_subdirectory(CountNumber)
+add_subdirectory(StudentGrade)

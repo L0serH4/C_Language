@@ -1,0 +1,2 @@
+D:\Environment\mingw64\bin\ar.exe qc libpublic_lib.a  CMakeFiles/public_lib.dir/public.c.obj
+D:\Environment\mingw64\bin\ranlib.exe libpublic_lib.a

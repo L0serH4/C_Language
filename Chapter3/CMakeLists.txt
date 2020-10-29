@@ -1,0 +1,5 @@
+add_subdirectory(1.TemperatureChange)
+add_subdirectory(2.Deposit)
+add_subdirectory(3.UpperToLower)
+add_subdirectory(4.TriangleArea)
+add_subdirectory(5.Equation)

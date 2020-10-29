@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="code"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Chapter1\;CMake Files\Chapter1\BiggestThreeNumber\;CMake Files\Chapter1\Test\;CMake Files\Chapter1\LowerToUpper\;CMake Files\Chapter1\CountNumber\;CMake Files\Chapter1\StudentGrade\;CMake Files\Chapter2\;CMake Files\Chapter2\Factorial\;CMake Files\Chapter2\FractionSummation\;CMake Files\Chapter3\;CMake Files\Chapter3\1.TemperatureChange\;CMake Files\Chapter3\2.Deposit\;CMake Files\Chapter3\3.UpperToLower\;CMake Files\Chapter3\4.TriangleArea\;CMake Files\Chapter3\5.Equation\;CMake Files\Chapter4\;CMake Files\Chapter4\1.Calendar\;CMake Files\Chapter5\;CMake Files\Chapter5\1.PrimeNumber\;CMake Files\Chapter5\2.LetterShift\;CMake Files\Public\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BiggestThreeNumber">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/BiggestThreeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 BiggestThreeNumber"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BiggestThreeNumber/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/BiggestThreeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 BiggestThreeNumber/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/BiggestThreeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/Test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/Test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LowerToUpper">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/LowerToUpper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 LowerToUpper"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LowerToUpper/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/LowerToUpper.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 LowerToUpper/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/LowerToUpper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountNumber">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/CountNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 CountNumber"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CountNumber/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/CountNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 CountNumber/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/CountNumber/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StudentGrade">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/StudentGrade.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 StudentGrade"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StudentGrade/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/StudentGrade.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 StudentGrade/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter1/StudentGrade/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Factorial">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Factorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 Factorial"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Factorial/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Factorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 Factorial/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/Factorial/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FractionSummation">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/FractionSummation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 FractionSummation"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FractionSummation/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/FractionSummation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 FractionSummation/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter2/FractionSummation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemperatureChange">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/TemperatureChange.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 TemperatureChange"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TemperatureChange/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/TemperatureChange.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 TemperatureChange/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/1.TemperatureChange/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Deposit">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Deposit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 Deposit"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Deposit/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Deposit.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 Deposit/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/2.Deposit/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UpperToLower">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/UpperToLower.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 UpperToLower"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UpperToLower/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/UpperToLower.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 UpperToLower/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/3.UpperToLower/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TriangleArea">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/TriangleArea.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 TriangleArea"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TriangleArea/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/TriangleArea.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 TriangleArea/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/4.TriangleArea/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Equation">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Equation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 Equation"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Equation/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Equation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 Equation/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter3/5.Equation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Calendar">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Calendar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 Calendar"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Calendar/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Calendar.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 Calendar/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter4/1.Calendar/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrimeNumber">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/PrimeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 PrimeNumber"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrimeNumber/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/PrimeNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 PrimeNumber/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/1.PrimeNumber/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LetterShift">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/LetterShift.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 LetterShift"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LetterShift/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/LetterShift.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 LetterShift/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter5/2.LetterShift/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="public_lib">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Public/libpublic_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Public"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 public_lib"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="public_lib/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Public/libpublic_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Public"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 public_lib/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Public/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/University/C_Language/code/Chapter1/BiggestThreeNumber/BiggestThreeNumber.c">
+			<Option target="BiggestThreeNumber"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/CountNumber/CountNumber.c">
+			<Option target="CountNumber"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/LowerToUpper/LowerToUpper.c">
+			<Option target="LowerToUpper"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/StudentGrade/StudentGrade.c">
+			<Option target="StudentGrade"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/Test/Test.c">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter2/Factorial/Factorial.c">
+			<Option target="Factorial"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter2/FractionSummation/FractionSummation.c">
+			<Option target="FractionSummation"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/1.TemperatureChange/TemperatureChange.c">
+			<Option target="TemperatureChange"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/2.Deposit/Deposit.c">
+			<Option target="Deposit"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/3.UpperToLower/UpperToLower.c">
+			<Option target="UpperToLower"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/4.TriangleArea/TriangleArea.c">
+			<Option target="TriangleArea"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/5.Equation/Equation.c">
+			<Option target="Equation"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter4/1.Calendar/Calendar.c">
+			<Option target="Calendar"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter5/1.PrimeNumber/PrimeNumber.c">
+			<Option target="PrimeNumber"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter5/2.LetterShift/LetterShift.c">
+			<Option target="LetterShift"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Public/public.c">
+			<Option target="public_lib"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter1\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/BiggestThreeNumber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter1\BiggestThreeNumber\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter1\Test\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/LowerToUpper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter1\LowerToUpper\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/CountNumber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter1\CountNumber\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter1/StudentGrade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter1\StudentGrade\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter2\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter2/Factorial/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter2\Factorial\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter2/FractionSummation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter2\FractionSummation\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter3\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/1.TemperatureChange/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter3\1.TemperatureChange\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/2.Deposit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter3\2.Deposit\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/3.UpperToLower/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter3\3.UpperToLower\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/4.TriangleArea/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter3\4.TriangleArea\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter3/5.Equation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter3\5.Equation\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter4\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter4/1.Calendar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter4\1.Calendar\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter5\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter5/1.PrimeNumber/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter5\1.PrimeNumber\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter5/2.LetterShift/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter5\2.LetterShift\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Public/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Public\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

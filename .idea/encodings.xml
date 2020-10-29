@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$/Chapter1/BiggestThreeNumber/BiggestThreeNumber.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter1/CountNumber/CountNumber.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter1/LowerToUpper/LowerToUpper.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter1/StudentGrade/StudentGrade.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter1/Test/Test.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter3/5.Equation/Equation.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter4/1.Calendar/Calendar.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter5/1.PrimeNumber/PrimeNumber.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter5/2.LetterShift/LetterShift.c" charset="GBK" />
+  </component>
+</project>
