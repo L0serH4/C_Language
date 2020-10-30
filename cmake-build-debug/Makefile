@@ -305,6 +305,58 @@ LetterShift/fast:
 .PHONY : LetterShift/fast
 
 #=============================================================================
+# Target rules for targets named FactorialRecursive
+
+# Build rule for target.
+FactorialRecursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 FactorialRecursive
+.PHONY : FactorialRecursive
+
+# fast build rule for target.
+FactorialRecursive/fast:
+	$(MAKE) -f Chapter7\FactorialRecursive\CMakeFiles\FactorialRecursive.dir\build.make Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/build
+.PHONY : FactorialRecursive/fast
+
+#=============================================================================
+# Target rules for targets named Hanoi
+
+# Build rule for target.
+Hanoi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Hanoi
+.PHONY : Hanoi
+
+# fast build rule for target.
+Hanoi/fast:
+	$(MAKE) -f Chapter7\Hanoi\CMakeFiles\Hanoi.dir\build.make Chapter7/Hanoi/CMakeFiles/Hanoi.dir/build
+.PHONY : Hanoi/fast
+
+#=============================================================================
+# Target rules for targets named SelectSort
+
+# Build rule for target.
+SelectSort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SelectSort
+.PHONY : SelectSort
+
+# fast build rule for target.
+SelectSort/fast:
+	$(MAKE) -f Chapter7\SelectSort\CMakeFiles\SelectSort.dir\build.make Chapter7/SelectSort/CMakeFiles/SelectSort.dir/build
+.PHONY : SelectSort/fast
+
+#=============================================================================
+# Target rules for targets named DeleteSpace
+
+# Build rule for target.
+DeleteSpace: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 DeleteSpace
+.PHONY : DeleteSpace
+
+# fast build rule for target.
+DeleteSpace/fast:
+	$(MAKE) -f Chapter7\DeleteSpace\CMakeFiles\DeleteSpace.dir\build.make Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/build
+.PHONY : DeleteSpace/fast
+
+#=============================================================================
 # Target rules for targets named public_lib
 
 # Build rule for target.
@@ -340,6 +392,10 @@ help:
 	@echo ... Calendar
 	@echo ... PrimeNumber
 	@echo ... LetterShift
+	@echo ... FactorialRecursive
+	@echo ... Hanoi
+	@echo ... SelectSort
+	@echo ... DeleteSpace
 	@echo ... public_lib
 .PHONY : help
 

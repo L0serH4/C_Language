@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/University/C_Language/code/Chapter7/FactorialRecursive/FactorialRecursive.c
+stdio.h
+-
+stdbool.h
+-
+

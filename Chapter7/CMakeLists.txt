@@ -1,0 +1,4 @@
+add_subdirectory(FactorialRecursive)
+add_subdirectory(Hanoi)
+add_subdirectory(SelectSort)
+add_subdirectory(DeleteSpace)

@@ -57,6 +57,7 @@ all: Chapter2/all
 all: Chapter3/all
 all: Chapter4/all
 all: Chapter5/all
+all: Chapter7/all
 all: Public/all
 
 .PHONY : all
@@ -67,6 +68,7 @@ preinstall: Chapter2/preinstall
 preinstall: Chapter3/preinstall
 preinstall: Chapter4/preinstall
 preinstall: Chapter5/preinstall
+preinstall: Chapter7/preinstall
 preinstall: Public/preinstall
 
 .PHONY : preinstall
@@ -77,6 +79,7 @@ clean: Chapter2/clean
 clean: Chapter3/clean
 clean: Chapter4/clean
 clean: Chapter5/clean
+clean: Chapter7/clean
 clean: Public/clean
 
 .PHONY : clean
@@ -472,6 +475,105 @@ Chapter5/2.LetterShift/clean: Chapter5/2.LetterShift/CMakeFiles/LetterShift.dir/
 .PHONY : Chapter5/2.LetterShift/clean
 
 #=============================================================================
+# Directory level rules for directory Chapter7
+
+# Recursive "all" directory target.
+Chapter7/all: Chapter7/FactorialRecursive/all
+Chapter7/all: Chapter7/Hanoi/all
+Chapter7/all: Chapter7/SelectSort/all
+Chapter7/all: Chapter7/DeleteSpace/all
+
+.PHONY : Chapter7/all
+
+# Recursive "preinstall" directory target.
+Chapter7/preinstall: Chapter7/FactorialRecursive/preinstall
+Chapter7/preinstall: Chapter7/Hanoi/preinstall
+Chapter7/preinstall: Chapter7/SelectSort/preinstall
+Chapter7/preinstall: Chapter7/DeleteSpace/preinstall
+
+.PHONY : Chapter7/preinstall
+
+# Recursive "clean" directory target.
+Chapter7/clean: Chapter7/FactorialRecursive/clean
+Chapter7/clean: Chapter7/Hanoi/clean
+Chapter7/clean: Chapter7/SelectSort/clean
+Chapter7/clean: Chapter7/DeleteSpace/clean
+
+.PHONY : Chapter7/clean
+
+#=============================================================================
+# Directory level rules for directory Chapter7/DeleteSpace
+
+# Recursive "all" directory target.
+Chapter7/DeleteSpace/all: Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/all
+
+.PHONY : Chapter7/DeleteSpace/all
+
+# Recursive "preinstall" directory target.
+Chapter7/DeleteSpace/preinstall:
+
+.PHONY : Chapter7/DeleteSpace/preinstall
+
+# Recursive "clean" directory target.
+Chapter7/DeleteSpace/clean: Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/clean
+
+.PHONY : Chapter7/DeleteSpace/clean
+
+#=============================================================================
+# Directory level rules for directory Chapter7/FactorialRecursive
+
+# Recursive "all" directory target.
+Chapter7/FactorialRecursive/all: Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/all
+
+.PHONY : Chapter7/FactorialRecursive/all
+
+# Recursive "preinstall" directory target.
+Chapter7/FactorialRecursive/preinstall:
+
+.PHONY : Chapter7/FactorialRecursive/preinstall
+
+# Recursive "clean" directory target.
+Chapter7/FactorialRecursive/clean: Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/clean
+
+.PHONY : Chapter7/FactorialRecursive/clean
+
+#=============================================================================
+# Directory level rules for directory Chapter7/Hanoi
+
+# Recursive "all" directory target.
+Chapter7/Hanoi/all: Chapter7/Hanoi/CMakeFiles/Hanoi.dir/all
+
+.PHONY : Chapter7/Hanoi/all
+
+# Recursive "preinstall" directory target.
+Chapter7/Hanoi/preinstall:
+
+.PHONY : Chapter7/Hanoi/preinstall
+
+# Recursive "clean" directory target.
+Chapter7/Hanoi/clean: Chapter7/Hanoi/CMakeFiles/Hanoi.dir/clean
+
+.PHONY : Chapter7/Hanoi/clean
+
+#=============================================================================
+# Directory level rules for directory Chapter7/SelectSort
+
+# Recursive "all" directory target.
+Chapter7/SelectSort/all: Chapter7/SelectSort/CMakeFiles/SelectSort.dir/all
+
+.PHONY : Chapter7/SelectSort/all
+
+# Recursive "preinstall" directory target.
+Chapter7/SelectSort/preinstall:
+
+.PHONY : Chapter7/SelectSort/preinstall
+
+# Recursive "clean" directory target.
+Chapter7/SelectSort/clean: Chapter7/SelectSort/CMakeFiles/SelectSort.dir/clean
+
+.PHONY : Chapter7/SelectSort/clean
+
+#=============================================================================
 # Directory level rules for directory Public
 
 # Recursive "all" directory target.
@@ -523,7 +625,7 @@ Chapter1/BiggestThreeNumber/CMakeFiles/BiggestThreeNumber.dir/clean:
 Chapter1/Test/CMakeFiles/Test.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter1\Test\CMakeFiles\Test.dir\build.make Chapter1/Test/CMakeFiles/Test.dir/depend
 	$(MAKE) -f Chapter1\Test\CMakeFiles\Test.dir\build.make Chapter1/Test/CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=36,37 "Built target Test"
 .PHONY : Chapter1/Test/CMakeFiles/Test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -550,7 +652,7 @@ Chapter1/Test/CMakeFiles/Test.dir/clean:
 Chapter1/LowerToUpper/CMakeFiles/LowerToUpper.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter1\LowerToUpper\CMakeFiles\LowerToUpper.dir\build.make Chapter1/LowerToUpper/CMakeFiles/LowerToUpper.dir/depend
 	$(MAKE) -f Chapter1\LowerToUpper\CMakeFiles\LowerToUpper.dir\build.make Chapter1/LowerToUpper/CMakeFiles/LowerToUpper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target LowerToUpper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=26,27 "Built target LowerToUpper"
 .PHONY : Chapter1/LowerToUpper/CMakeFiles/LowerToUpper.dir/all
 
 # Build rule for subdir invocation for target.
@@ -604,7 +706,7 @@ Chapter1/CountNumber/CMakeFiles/CountNumber.dir/clean:
 Chapter1/StudentGrade/CMakeFiles/StudentGrade.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter1\StudentGrade\CMakeFiles\StudentGrade.dir\build.make Chapter1/StudentGrade/CMakeFiles/StudentGrade.dir/depend
 	$(MAKE) -f Chapter1\StudentGrade\CMakeFiles\StudentGrade.dir\build.make Chapter1/StudentGrade/CMakeFiles/StudentGrade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target StudentGrade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target StudentGrade"
 .PHONY : Chapter1/StudentGrade/CMakeFiles/StudentGrade.dir/all
 
 # Build rule for subdir invocation for target.
@@ -631,7 +733,7 @@ Chapter1/StudentGrade/CMakeFiles/StudentGrade.dir/clean:
 Chapter2/Factorial/CMakeFiles/Factorial.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter2\Factorial\CMakeFiles\Factorial.dir\build.make Chapter2/Factorial/CMakeFiles/Factorial.dir/depend
 	$(MAKE) -f Chapter2\Factorial\CMakeFiles\Factorial.dir\build.make Chapter2/Factorial/CMakeFiles/Factorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target Factorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target Factorial"
 .PHONY : Chapter2/Factorial/CMakeFiles/Factorial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -658,7 +760,7 @@ Chapter2/Factorial/CMakeFiles/Factorial.dir/clean:
 Chapter2/FractionSummation/CMakeFiles/FractionSummation.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter2\FractionSummation\CMakeFiles\FractionSummation.dir\build.make Chapter2/FractionSummation/CMakeFiles/FractionSummation.dir/depend
 	$(MAKE) -f Chapter2\FractionSummation\CMakeFiles\FractionSummation.dir\build.make Chapter2/FractionSummation/CMakeFiles/FractionSummation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target FractionSummation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target FractionSummation"
 .PHONY : Chapter2/FractionSummation/CMakeFiles/FractionSummation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -685,7 +787,7 @@ Chapter2/FractionSummation/CMakeFiles/FractionSummation.dir/clean:
 Chapter3/1.TemperatureChange/CMakeFiles/TemperatureChange.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter3\1.TemperatureChange\CMakeFiles\TemperatureChange.dir\build.make Chapter3/1.TemperatureChange/CMakeFiles/TemperatureChange.dir/depend
 	$(MAKE) -f Chapter3\1.TemperatureChange\CMakeFiles\TemperatureChange.dir\build.make Chapter3/1.TemperatureChange/CMakeFiles/TemperatureChange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target TemperatureChange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=34,35 "Built target TemperatureChange"
 .PHONY : Chapter3/1.TemperatureChange/CMakeFiles/TemperatureChange.dir/all
 
 # Build rule for subdir invocation for target.
@@ -712,7 +814,7 @@ Chapter3/1.TemperatureChange/CMakeFiles/TemperatureChange.dir/clean:
 Chapter3/2.Deposit/CMakeFiles/Deposit.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter3\2.Deposit\CMakeFiles\Deposit.dir\build.make Chapter3/2.Deposit/CMakeFiles/Deposit.dir/depend
 	$(MAKE) -f Chapter3\2.Deposit\CMakeFiles\Deposit.dir\build.make Chapter3/2.Deposit/CMakeFiles/Deposit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target Deposit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=12,13 "Built target Deposit"
 .PHONY : Chapter3/2.Deposit/CMakeFiles/Deposit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -739,7 +841,7 @@ Chapter3/2.Deposit/CMakeFiles/Deposit.dir/clean:
 Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter3\3.UpperToLower\CMakeFiles\UpperToLower.dir\build.make Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/depend
 	$(MAKE) -f Chapter3\3.UpperToLower\CMakeFiles\UpperToLower.dir\build.make Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target UpperToLower"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target UpperToLower"
 .PHONY : Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/all
 
 # Build rule for subdir invocation for target.
@@ -766,7 +868,7 @@ Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/clean:
 Chapter3/4.TriangleArea/CMakeFiles/TriangleArea.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter3\4.TriangleArea\CMakeFiles\TriangleArea.dir\build.make Chapter3/4.TriangleArea/CMakeFiles/TriangleArea.dir/depend
 	$(MAKE) -f Chapter3\4.TriangleArea\CMakeFiles\TriangleArea.dir\build.make Chapter3/4.TriangleArea/CMakeFiles/TriangleArea.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target TriangleArea"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target TriangleArea"
 .PHONY : Chapter3/4.TriangleArea/CMakeFiles/TriangleArea.dir/all
 
 # Build rule for subdir invocation for target.
@@ -793,7 +895,7 @@ Chapter3/4.TriangleArea/CMakeFiles/TriangleArea.dir/clean:
 Chapter3/5.Equation/CMakeFiles/Equation.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter3\5.Equation\CMakeFiles\Equation.dir\build.make Chapter3/5.Equation/CMakeFiles/Equation.dir/depend
 	$(MAKE) -f Chapter3\5.Equation\CMakeFiles\Equation.dir\build.make Chapter3/5.Equation/CMakeFiles/Equation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target Equation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=14,15 "Built target Equation"
 .PHONY : Chapter3/5.Equation/CMakeFiles/Equation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -847,7 +949,7 @@ Chapter4/1.Calendar/CMakeFiles/Calendar.dir/clean:
 Chapter5/1.PrimeNumber/CMakeFiles/PrimeNumber.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter5\1.PrimeNumber\CMakeFiles\PrimeNumber.dir\build.make Chapter5/1.PrimeNumber/CMakeFiles/PrimeNumber.dir/depend
 	$(MAKE) -f Chapter5\1.PrimeNumber\CMakeFiles\PrimeNumber.dir\build.make Chapter5/1.PrimeNumber/CMakeFiles/PrimeNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target PrimeNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target PrimeNumber"
 .PHONY : Chapter5/1.PrimeNumber/CMakeFiles/PrimeNumber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -874,7 +976,7 @@ Chapter5/1.PrimeNumber/CMakeFiles/PrimeNumber.dir/clean:
 Chapter5/2.LetterShift/CMakeFiles/LetterShift.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter5\2.LetterShift\CMakeFiles\LetterShift.dir\build.make Chapter5/2.LetterShift/CMakeFiles/LetterShift.dir/depend
 	$(MAKE) -f Chapter5\2.LetterShift\CMakeFiles\LetterShift.dir\build.make Chapter5/2.LetterShift/CMakeFiles/LetterShift.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target LetterShift"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=24,25 "Built target LetterShift"
 .PHONY : Chapter5/2.LetterShift/CMakeFiles/LetterShift.dir/all
 
 # Build rule for subdir invocation for target.
@@ -895,13 +997,121 @@ Chapter5/2.LetterShift/CMakeFiles/LetterShift.dir/clean:
 .PHONY : Chapter5/2.LetterShift/CMakeFiles/LetterShift.dir/clean
 
 #=============================================================================
+# Target rules for target Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir
+
+# All Build rule for target.
+Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/all: Public/CMakeFiles/public_lib.dir/all
+	$(MAKE) -f Chapter7\FactorialRecursive\CMakeFiles\FactorialRecursive.dir\build.make Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/depend
+	$(MAKE) -f Chapter7\FactorialRecursive\CMakeFiles\FactorialRecursive.dir\build.make Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=18,19 "Built target FactorialRecursive"
+.PHONY : Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 0
+.PHONY : Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/rule
+
+# Convenience name for target.
+FactorialRecursive: Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/rule
+
+.PHONY : FactorialRecursive
+
+# clean rule for target.
+Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/clean:
+	$(MAKE) -f Chapter7\FactorialRecursive\CMakeFiles\FactorialRecursive.dir\build.make Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/clean
+.PHONY : Chapter7/FactorialRecursive/CMakeFiles/FactorialRecursive.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter7/Hanoi/CMakeFiles/Hanoi.dir
+
+# All Build rule for target.
+Chapter7/Hanoi/CMakeFiles/Hanoi.dir/all: Public/CMakeFiles/public_lib.dir/all
+	$(MAKE) -f Chapter7\Hanoi\CMakeFiles\Hanoi.dir\build.make Chapter7/Hanoi/CMakeFiles/Hanoi.dir/depend
+	$(MAKE) -f Chapter7\Hanoi\CMakeFiles\Hanoi.dir\build.make Chapter7/Hanoi/CMakeFiles/Hanoi.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target Hanoi"
+.PHONY : Chapter7/Hanoi/CMakeFiles/Hanoi.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter7/Hanoi/CMakeFiles/Hanoi.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 Chapter7/Hanoi/CMakeFiles/Hanoi.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 0
+.PHONY : Chapter7/Hanoi/CMakeFiles/Hanoi.dir/rule
+
+# Convenience name for target.
+Hanoi: Chapter7/Hanoi/CMakeFiles/Hanoi.dir/rule
+
+.PHONY : Hanoi
+
+# clean rule for target.
+Chapter7/Hanoi/CMakeFiles/Hanoi.dir/clean:
+	$(MAKE) -f Chapter7\Hanoi\CMakeFiles\Hanoi.dir\build.make Chapter7/Hanoi/CMakeFiles/Hanoi.dir/clean
+.PHONY : Chapter7/Hanoi/CMakeFiles/Hanoi.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter7/SelectSort/CMakeFiles/SelectSort.dir
+
+# All Build rule for target.
+Chapter7/SelectSort/CMakeFiles/SelectSort.dir/all: Public/CMakeFiles/public_lib.dir/all
+	$(MAKE) -f Chapter7\SelectSort\CMakeFiles\SelectSort.dir\build.make Chapter7/SelectSort/CMakeFiles/SelectSort.dir/depend
+	$(MAKE) -f Chapter7\SelectSort\CMakeFiles\SelectSort.dir\build.make Chapter7/SelectSort/CMakeFiles/SelectSort.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target SelectSort"
+.PHONY : Chapter7/SelectSort/CMakeFiles/SelectSort.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter7/SelectSort/CMakeFiles/SelectSort.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 Chapter7/SelectSort/CMakeFiles/SelectSort.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 0
+.PHONY : Chapter7/SelectSort/CMakeFiles/SelectSort.dir/rule
+
+# Convenience name for target.
+SelectSort: Chapter7/SelectSort/CMakeFiles/SelectSort.dir/rule
+
+.PHONY : SelectSort
+
+# clean rule for target.
+Chapter7/SelectSort/CMakeFiles/SelectSort.dir/clean:
+	$(MAKE) -f Chapter7\SelectSort\CMakeFiles\SelectSort.dir\build.make Chapter7/SelectSort/CMakeFiles/SelectSort.dir/clean
+.PHONY : Chapter7/SelectSort/CMakeFiles/SelectSort.dir/clean
+
+#=============================================================================
+# Target rules for target Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir
+
+# All Build rule for target.
+Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/all: Public/CMakeFiles/public_lib.dir/all
+	$(MAKE) -f Chapter7\DeleteSpace\CMakeFiles\DeleteSpace.dir\build.make Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/depend
+	$(MAKE) -f Chapter7\DeleteSpace\CMakeFiles\DeleteSpace.dir\build.make Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11 "Built target DeleteSpace"
+.PHONY : Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 7
+	$(MAKE) -f CMakeFiles\Makefile2 Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 0
+.PHONY : Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/rule
+
+# Convenience name for target.
+DeleteSpace: Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/rule
+
+.PHONY : DeleteSpace
+
+# clean rule for target.
+Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/clean:
+	$(MAKE) -f Chapter7\DeleteSpace\CMakeFiles\DeleteSpace.dir\build.make Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/clean
+.PHONY : Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/clean
+
+#=============================================================================
 # Target rules for target Public/CMakeFiles/public_lib.dir
 
 # All Build rule for target.
 Public/CMakeFiles/public_lib.dir/all:
 	$(MAKE) -f Public\CMakeFiles\public_lib.dir\build.make Public/CMakeFiles/public_lib.dir/depend
 	$(MAKE) -f Public\CMakeFiles\public_lib.dir\build.make Public/CMakeFiles/public_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target public_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target public_lib"
 .PHONY : Public/CMakeFiles/public_lib.dir/all
 
 # Build rule for subdir invocation for target.
