@@ -357,6 +357,19 @@ DeleteSpace/fast:
 .PHONY : DeleteSpace/fast
 
 #=============================================================================
+# Target rules for targets named TwoDimensionalArray
+
+# Build rule for target.
+TwoDimensionalArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 TwoDimensionalArray
+.PHONY : TwoDimensionalArray
+
+# fast build rule for target.
+TwoDimensionalArray/fast:
+	$(MAKE) -f Chapter8\TwoDimensionalArrayPointer\CMakeFiles\TwoDimensionalArray.dir\build.make Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/build
+.PHONY : TwoDimensionalArray/fast
+
+#=============================================================================
 # Target rules for targets named public_lib
 
 # Build rule for target.
@@ -396,6 +409,7 @@ help:
 	@echo ... Hanoi
 	@echo ... SelectSort
 	@echo ... DeleteSpace
+	@echo ... TwoDimensionalArray
 	@echo ... public_lib
 .PHONY : help
 

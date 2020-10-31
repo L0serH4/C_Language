@@ -69,6 +69,11 @@ D:/University/C_Language/code/cmake-build-debug/Chapter7/SelectSort/CMakeFiles/r
 D:/University/C_Language/code/cmake-build-debug/Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir
 D:/University/C_Language/code/cmake-build-debug/Chapter7/DeleteSpace/CMakeFiles/edit_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Chapter7/DeleteSpace/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/CMakeFiles/rebuild_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/public_lib.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/edit_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/rebuild_cache.dir

@@ -54,6 +54,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Chapter7/FactorialRecursive/CMakeLists.txt"
   "../Chapter7/Hanoi/CMakeLists.txt"
   "../Chapter7/SelectSort/CMakeLists.txt"
+  "../Chapter8/CMakeLists.txt"
+  "../Chapter8/TwoDimensionalArrayPointer/CMakeLists.txt"
   "../Public/CMakeLists.txt"
   "CMakeFiles/3.16.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeRCCompiler.cmake"
@@ -94,6 +96,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Chapter7/Hanoi/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter7/SelectSort/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter7/DeleteSpace/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter8/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter8/TwoDimensionalArrayPointer/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Public/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -118,5 +122,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Chapter7/Hanoi/CMakeFiles/Hanoi.dir/DependInfo.cmake"
   "Chapter7/SelectSort/CMakeFiles/SelectSort.dir/DependInfo.cmake"
   "Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/DependInfo.cmake"
+  "Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/DependInfo.cmake"
   "Public/CMakeFiles/public_lib.dir/DependInfo.cmake"
   )

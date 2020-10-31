@@ -58,6 +58,7 @@ all: Chapter3/all
 all: Chapter4/all
 all: Chapter5/all
 all: Chapter7/all
+all: Chapter8/all
 all: Public/all
 
 .PHONY : all
@@ -69,6 +70,7 @@ preinstall: Chapter3/preinstall
 preinstall: Chapter4/preinstall
 preinstall: Chapter5/preinstall
 preinstall: Chapter7/preinstall
+preinstall: Chapter8/preinstall
 preinstall: Public/preinstall
 
 .PHONY : preinstall
@@ -80,6 +82,7 @@ clean: Chapter3/clean
 clean: Chapter4/clean
 clean: Chapter5/clean
 clean: Chapter7/clean
+clean: Chapter8/clean
 clean: Public/clean
 
 .PHONY : clean
@@ -574,6 +577,42 @@ Chapter7/SelectSort/clean: Chapter7/SelectSort/CMakeFiles/SelectSort.dir/clean
 .PHONY : Chapter7/SelectSort/clean
 
 #=============================================================================
+# Directory level rules for directory Chapter8
+
+# Recursive "all" directory target.
+Chapter8/all: Chapter8/TwoDimensionalArrayPointer/all
+
+.PHONY : Chapter8/all
+
+# Recursive "preinstall" directory target.
+Chapter8/preinstall: Chapter8/TwoDimensionalArrayPointer/preinstall
+
+.PHONY : Chapter8/preinstall
+
+# Recursive "clean" directory target.
+Chapter8/clean: Chapter8/TwoDimensionalArrayPointer/clean
+
+.PHONY : Chapter8/clean
+
+#=============================================================================
+# Directory level rules for directory Chapter8/TwoDimensionalArrayPointer
+
+# Recursive "all" directory target.
+Chapter8/TwoDimensionalArrayPointer/all: Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/all
+
+.PHONY : Chapter8/TwoDimensionalArrayPointer/all
+
+# Recursive "preinstall" directory target.
+Chapter8/TwoDimensionalArrayPointer/preinstall:
+
+.PHONY : Chapter8/TwoDimensionalArrayPointer/preinstall
+
+# Recursive "clean" directory target.
+Chapter8/TwoDimensionalArrayPointer/clean: Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/clean
+
+.PHONY : Chapter8/TwoDimensionalArrayPointer/clean
+
+#=============================================================================
 # Directory level rules for directory Public
 
 # Recursive "all" directory target.
@@ -841,7 +880,7 @@ Chapter3/2.Deposit/CMakeFiles/Deposit.dir/clean:
 Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/all: Public/CMakeFiles/public_lib.dir/all
 	$(MAKE) -f Chapter3\3.UpperToLower\CMakeFiles\UpperToLower.dir\build.make Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/depend
 	$(MAKE) -f Chapter3\3.UpperToLower\CMakeFiles\UpperToLower.dir\build.make Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target UpperToLower"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target UpperToLower"
 .PHONY : Chapter3/3.UpperToLower/CMakeFiles/UpperToLower.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1105,13 +1144,40 @@ Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/clean:
 .PHONY : Chapter7/DeleteSpace/CMakeFiles/DeleteSpace.dir/clean
 
 #=============================================================================
+# Target rules for target Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir
+
+# All Build rule for target.
+Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/all: Public/CMakeFiles/public_lib.dir/all
+	$(MAKE) -f Chapter8\TwoDimensionalArrayPointer\CMakeFiles\TwoDimensionalArray.dir\build.make Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/depend
+	$(MAKE) -f Chapter8\TwoDimensionalArrayPointer\CMakeFiles\TwoDimensionalArray.dir\build.make Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=40,41 "Built target TwoDimensionalArray"
+.PHONY : Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/all
+
+# Build rule for subdir invocation for target.
+Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 4
+	$(MAKE) -f CMakeFiles\Makefile2 Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\University\C_Language\code\cmake-build-debug\CMakeFiles 0
+.PHONY : Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/rule
+
+# Convenience name for target.
+TwoDimensionalArray: Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/rule
+
+.PHONY : TwoDimensionalArray
+
+# clean rule for target.
+Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/clean:
+	$(MAKE) -f Chapter8\TwoDimensionalArrayPointer\CMakeFiles\TwoDimensionalArray.dir\build.make Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/clean
+.PHONY : Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir/clean
+
+#=============================================================================
 # Target rules for target Public/CMakeFiles/public_lib.dir
 
 # All Build rule for target.
 Public/CMakeFiles/public_lib.dir/all:
 	$(MAKE) -f Public\CMakeFiles\public_lib.dir\build.make Public/CMakeFiles/public_lib.dir/depend
 	$(MAKE) -f Public\CMakeFiles\public_lib.dir\build.make Public/CMakeFiles/public_lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target public_lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\University\C_Language\code\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target public_lib"
 .PHONY : Public/CMakeFiles/public_lib.dir/all
 
 # Build rule for subdir invocation for target.

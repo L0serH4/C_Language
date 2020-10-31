@@ -5,7 +5,7 @@
 		<Option title="code"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Chapter1\;CMake Files\Chapter1\BiggestThreeNumber\;CMake Files\Chapter1\Test\;CMake Files\Chapter1\LowerToUpper\;CMake Files\Chapter1\CountNumber\;CMake Files\Chapter1\StudentGrade\;CMake Files\Chapter2\;CMake Files\Chapter2\Factorial\;CMake Files\Chapter2\FractionSummation\;CMake Files\Chapter3\;CMake Files\Chapter3\1.TemperatureChange\;CMake Files\Chapter3\2.Deposit\;CMake Files\Chapter3\3.UpperToLower\;CMake Files\Chapter3\4.TriangleArea\;CMake Files\Chapter3\5.Equation\;CMake Files\Chapter4\;CMake Files\Chapter4\1.Calendar\;CMake Files\Chapter5\;CMake Files\Chapter5\1.PrimeNumber\;CMake Files\Chapter5\2.LetterShift\;CMake Files\Chapter7\;CMake Files\Chapter7\FactorialRecursive\;CMake Files\Chapter7\Hanoi\;CMake Files\Chapter7\SelectSort\;CMake Files\Chapter7\DeleteSpace\;CMake Files\Public\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Chapter1\;CMake Files\Chapter1\BiggestThreeNumber\;CMake Files\Chapter1\Test\;CMake Files\Chapter1\LowerToUpper\;CMake Files\Chapter1\CountNumber\;CMake Files\Chapter1\StudentGrade\;CMake Files\Chapter2\;CMake Files\Chapter2\Factorial\;CMake Files\Chapter2\FractionSummation\;CMake Files\Chapter3\;CMake Files\Chapter3\1.TemperatureChange\;CMake Files\Chapter3\2.Deposit\;CMake Files\Chapter3\3.UpperToLower\;CMake Files\Chapter3\4.TriangleArea\;CMake Files\Chapter3\5.Equation\;CMake Files\Chapter4\;CMake Files\Chapter4\1.Calendar\;CMake Files\Chapter5\;CMake Files\Chapter5\1.PrimeNumber\;CMake Files\Chapter5\2.LetterShift\;CMake Files\Chapter7\;CMake Files\Chapter7\FactorialRecursive\;CMake Files\Chapter7\Hanoi\;CMake Files\Chapter7\SelectSort\;CMake Files\Chapter7\DeleteSpace\;CMake Files\Chapter8\;CMake Files\Chapter8\TwoDimensionalArrayPointer\;CMake Files\Public\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/University/C_Language/code/cmake-build-debug"/>
@@ -759,6 +759,44 @@
 					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter7/DeleteSpace/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TwoDimensionalArray">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/TwoDimensionalArray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 TwoDimensionalArray"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TwoDimensionalArray/fast">
+				<Option output="D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/TwoDimensionalArray.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/University/C_Language/code/Public"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Environment/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 TwoDimensionalArray/fast"/>
+					<CompileFile command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Environment/mingw64/bin/mingw32-make.exe -f &quot;D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="public_lib">
 				<Option output="D:/University/C_Language/code/cmake-build-debug/Public/libpublic_lib.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/University/C_Language/code/cmake-build-debug/Public"/>
@@ -862,6 +900,9 @@
 		<Unit filename="D:/University/C_Language/code/Chapter7/SelectSort/SelectSort.c">
 			<Option target="SelectSort"/>
 		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter8/TwoDimensionalArrayPointer/TwoDimensionalArray.c">
+			<Option target="TwoDimensionalArray"/>
+		</Unit>
 		<Unit filename="D:/University/C_Language/code/Public/public.c">
 			<Option target="public_lib"/>
 		</Unit>
@@ -942,6 +983,12 @@
 		</Unit>
 		<Unit filename="D:/University/C_Language/code/Chapter7/DeleteSpace/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Chapter7\DeleteSpace\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter8\"/>
+		</Unit>
+		<Unit filename="D:/University/C_Language/code/Chapter8/TwoDimensionalArrayPointer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Chapter8\TwoDimensionalArrayPointer\"/>
 		</Unit>
 		<Unit filename="D:/University/C_Language/code/Public/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Public\"/>
