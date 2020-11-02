@@ -1,1 +1,4 @@
 add_subdirectory(TwoDimensionalArrayPointer)
+add_subdirectory(FunctionToPointer)
+add_subdirectory(PointerToFunction)
+add_subdirectory(Fail_Pointer)

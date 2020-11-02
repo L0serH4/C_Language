@@ -14,5 +14,9 @@
     <file url="file://$PROJECT_DIR$/Chapter7/FactorialRecursive/FactorialRecursive.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Chapter7/Hanoi/Hanoi.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Chapter7/SelectSort/SelectSort.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter8/Fail_Pointer/Fail_Pointer.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter8/FunctionToPointer/FunctionToPointer.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter8/PointerToFunction/PointerToFunction.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Chapter8/TwoDimensionalArrayPointer/TwoDimensionalArray.c" charset="GBK" />
   </component>
 </project>

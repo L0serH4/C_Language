@@ -37,3 +37,18 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/University/C_Language/code/cmake-build-debug/Chapter8/FunctionToPointer/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/University/C_Language/code/cmake-build-debug/Chapter8/PointerToFunction/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/University/C_Language/code/cmake-build-debug/Chapter8/Fail_Pointer/cmake_install.cmake")
+endif()
+

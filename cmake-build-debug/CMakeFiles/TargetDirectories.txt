@@ -74,6 +74,15 @@ D:/University/C_Language/code/cmake-build-debug/Chapter8/CMakeFiles/rebuild_cach
 D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/CMakeFiles/TwoDimensionalArray.dir
 D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/CMakeFiles/edit_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Chapter8/TwoDimensionalArrayPointer/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/FunctionToPointer/CMakeFiles/FunctionToPointer.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/FunctionToPointer/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/FunctionToPointer/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/PointerToFunction/CMakeFiles/PointerToFunction.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/PointerToFunction/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/PointerToFunction/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/Fail_Pointer/CMakeFiles/Fail_Pointer.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/Fail_Pointer/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter8/Fail_Pointer/CMakeFiles/rebuild_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/public_lib.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/edit_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/rebuild_cache.dir

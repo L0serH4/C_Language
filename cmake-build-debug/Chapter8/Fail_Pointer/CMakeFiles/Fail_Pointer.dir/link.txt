@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Fail_Pointer.dir/objects.a
+D:\Environment\mingw64\bin\ar.exe cr CMakeFiles\Fail_Pointer.dir/objects.a @CMakeFiles\Fail_Pointer.dir\objects1.rsp
+D:\Environment\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Fail_Pointer.dir/objects.a -Wl,--no-whole-archive  -o Fail_Pointer.exe -Wl,--out-implib,libFail_Pointer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Fail_Pointer.dir\linklibs.rsp

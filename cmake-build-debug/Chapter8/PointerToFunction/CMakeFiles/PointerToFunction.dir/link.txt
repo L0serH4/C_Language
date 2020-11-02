@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PointerToFunction.dir/objects.a
+D:\Environment\mingw64\bin\ar.exe cr CMakeFiles\PointerToFunction.dir/objects.a @CMakeFiles\PointerToFunction.dir\objects1.rsp
+D:\Environment\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\PointerToFunction.dir/objects.a -Wl,--no-whole-archive  -o PointerToFunction.exe -Wl,--out-implib,libPointerToFunction.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PointerToFunction.dir\linklibs.rsp
