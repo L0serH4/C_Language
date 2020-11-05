@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\DynamicChain.dir/objects.a
+D:\Environment\mingw64\bin\ar.exe cr CMakeFiles\DynamicChain.dir/objects.a @CMakeFiles\DynamicChain.dir\objects1.rsp
+D:\Environment\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\DynamicChain.dir/objects.a -Wl,--no-whole-archive  -o DynamicChain.exe -Wl,--out-implib,libDynamicChain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\DynamicChain.dir\linklibs.rsp

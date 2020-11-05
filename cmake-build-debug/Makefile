@@ -429,6 +429,32 @@ Fail_Pointer/fast:
 .PHONY : Fail_Pointer/fast
 
 #=============================================================================
+# Target rules for targets named DynamicChain
+
+# Build rule for target.
+DynamicChain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DynamicChain
+.PHONY : DynamicChain
+
+# fast build rule for target.
+DynamicChain/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter9\DynamicChain\CMakeFiles\DynamicChain.dir\build.make Chapter9/DynamicChain/CMakeFiles/DynamicChain.dir/build
+.PHONY : DynamicChain/fast
+
+#=============================================================================
+# Target rules for targets named StudentGradeStruct
+
+# Build rule for target.
+StudentGradeStruct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 StudentGradeStruct
+.PHONY : StudentGradeStruct
+
+# fast build rule for target.
+StudentGradeStruct/fast:
+	$(MAKE) $(MAKESILENT) -f Chapter9\StudentGradeStruct\CMakeFiles\StudentGradeStruct.dir\build.make Chapter9/StudentGradeStruct/CMakeFiles/StudentGradeStruct.dir/build
+.PHONY : StudentGradeStruct/fast
+
+#=============================================================================
 # Target rules for targets named public_lib
 
 # Build rule for target.
@@ -454,6 +480,7 @@ help:
 	@echo ... CountNumber
 	@echo ... DeleteSpace
 	@echo ... Deposit
+	@echo ... DynamicChain
 	@echo ... Equation
 	@echo ... Factorial
 	@echo ... FactorialRecursive
@@ -467,6 +494,7 @@ help:
 	@echo ... PrimeNumber
 	@echo ... SelectSort
 	@echo ... StudentGrade
+	@echo ... StudentGradeStruct
 	@echo ... TemperatureChange
 	@echo ... Test
 	@echo ... TriangleArea

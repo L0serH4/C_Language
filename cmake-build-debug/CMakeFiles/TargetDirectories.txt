@@ -83,6 +83,14 @@ D:/University/C_Language/code/cmake-build-debug/Chapter8/PointerToFunction/CMake
 D:/University/C_Language/code/cmake-build-debug/Chapter8/Fail_Pointer/CMakeFiles/Fail_Pointer.dir
 D:/University/C_Language/code/cmake-build-debug/Chapter8/Fail_Pointer/CMakeFiles/edit_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Chapter8/Fail_Pointer/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/DynamicChain/CMakeFiles/DynamicChain.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/DynamicChain/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/DynamicChain/CMakeFiles/rebuild_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/StudentGradeStruct/CMakeFiles/StudentGradeStruct.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/StudentGradeStruct/CMakeFiles/edit_cache.dir
+D:/University/C_Language/code/cmake-build-debug/Chapter9/StudentGradeStruct/CMakeFiles/rebuild_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/public_lib.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/edit_cache.dir
 D:/University/C_Language/code/cmake-build-debug/Public/CMakeFiles/rebuild_cache.dir

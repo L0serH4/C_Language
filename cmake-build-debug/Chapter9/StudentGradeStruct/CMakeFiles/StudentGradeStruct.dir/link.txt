@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\StudentGradeStruct.dir/objects.a
+D:\Environment\mingw64\bin\ar.exe cr CMakeFiles\StudentGradeStruct.dir/objects.a @CMakeFiles\StudentGradeStruct.dir\objects1.rsp
+D:\Environment\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\StudentGradeStruct.dir/objects.a -Wl,--no-whole-archive  -o StudentGradeStruct.exe -Wl,--out-implib,libStudentGradeStruct.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StudentGradeStruct.dir\linklibs.rsp

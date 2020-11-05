@@ -60,6 +60,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../Chapter8/FunctionToPointer/CMakeLists.txt"
   "../Chapter8/PointerToFunction/CMakeLists.txt"
   "../Chapter8/TwoDimensionalArrayPointer/CMakeLists.txt"
+  "../Chapter9/CMakeLists.txt"
+  "../Chapter9/DynamicChain/CMakeLists.txt"
+  "../Chapter9/StudentGradeStruct/CMakeLists.txt"
   "../Public/CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
@@ -105,6 +108,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Chapter8/FunctionToPointer/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter8/PointerToFunction/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Chapter8/Fail_Pointer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter9/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter9/DynamicChain/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Chapter9/StudentGradeStruct/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Public/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -133,5 +139,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "Chapter8/FunctionToPointer/CMakeFiles/FunctionToPointer.dir/DependInfo.cmake"
   "Chapter8/PointerToFunction/CMakeFiles/PointerToFunction.dir/DependInfo.cmake"
   "Chapter8/Fail_Pointer/CMakeFiles/Fail_Pointer.dir/DependInfo.cmake"
+  "Chapter9/DynamicChain/CMakeFiles/DynamicChain.dir/DependInfo.cmake"
+  "Chapter9/StudentGradeStruct/CMakeFiles/StudentGradeStruct.dir/DependInfo.cmake"
   "Public/CMakeFiles/public_lib.dir/DependInfo.cmake"
   )
